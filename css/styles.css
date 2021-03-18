@@ -1,4 +1,10 @@
+@font-face {
+    font-family: KristallNowPro;
+    src: url("../public/KristallNowPro-Bold_1.otf") format("opentype");
+}
+
 body {
+    font-family: KristallNowPro;
     background:#eee;
     width: 100%;
     margin: 0;
