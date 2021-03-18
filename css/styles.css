@@ -11,13 +11,23 @@ body {
     
 }
 
-#navigation{
+.navigation{
     list-style: none;
+    background-color : #192b5b;
 }
 
-#navigation li {
+.navigation li {
     padding-left : 0;
     display : inline;
     margin-left : 10%;
 }
 
+.navigation a {
+    color : #d84029;
+    text-decoration : none;
+    font-size : 1em;
+}
+
+h1{
+
+}
