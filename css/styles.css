@@ -1,6 +1,7 @@
 body {
     background:#eee;
     width: 100%;
+    margin: 0;
 }
 
 #banner {
@@ -9,3 +10,14 @@ body {
 .container {
     
 }
+
+#navigation{
+    list-style: none;
+}
+
+#navigation li {
+    padding-left : 0;
+    display : inline;
+    margin-left : 10%;
+}
+
