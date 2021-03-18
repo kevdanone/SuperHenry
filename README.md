@@ -1,4 +1,3 @@
 # SuperHenry
 
-ton travail si tu l'accepte nous écrire ce que tu veux
-coucou 
+gh page: https://mizux.github.io/SuperHenry/html/homePage.html
