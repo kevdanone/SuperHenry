@@ -16,13 +16,18 @@ body {
 }
 
 nav{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     list-style: none;
     background-color : #192b5b;
-    padding : 1em;
+    padding : 1em 3em;
     font-size: 1.5em;
     margin-top:-0.1em;
+}
+h1{
+    font-size:1.5em;
+    margin: 0 0 1em 1em;
 }
 
 .navigation a {
@@ -40,3 +45,51 @@ footer {
 footer a {
     text-decoration: none;
 }
+
+
+
+/* contact me*/ 
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 3px solid white;
+    border-radius: 1em;
+    background-color: #525252;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: white;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    display: block;
+  
+  }
+  
+  button {
+    margin-left: .5em;
+  }
+  
