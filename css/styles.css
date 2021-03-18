@@ -5,9 +5,10 @@
 
 body {
     font-family: KristallNowPro;
-    background:#eee;
+    background-color : #192b5b;
     width: 100%;
     margin: 0;
+    color:white;
 }
 
 #banner {
@@ -20,9 +21,9 @@ nav{
     justify-content: space-between;
     list-style: none;
     background-color : #192b5b;
-    padding : 2em;
+    padding : 1em;
     font-size: 1.5em;
-    margin-top:-0.1em
+    margin-top:-0.1em;
 }
 
 .navigation a {
@@ -32,12 +33,6 @@ nav{
     padding-left : 0;
     display : inline;
 }
-
-h1{
-
-}
-
-
 
 footer {
     display: flex;
