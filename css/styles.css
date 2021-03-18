@@ -15,22 +15,34 @@ body {
 }
 
 nav{
-    flex:auto;
-
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     list-style: none;
     background-color : #192b5b;
     padding : 2em;
+    font-size: 1.5em;
+    margin-top:-0.1em
 }
 
 .navigation a {
     color : #d84029;
     text-decoration : none;
     font-size : 1em;
-     padding-left : 0;
+    padding-left : 0;
     display : inline;
-    margin-left : 10%;
 }
 
 h1{
 
+}
+
+
+
+footer {
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
 }
