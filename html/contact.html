@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Me</title>
-
+        <title>Super Henry Tran</title>
+      
         <link rel="stylesheet" href="../css/styles.css">
+      
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-            crossorigin="anonymous" />
-
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous" />
     </head>
-    <body>
-        <a href="homePage.html"><img id="banner" src="https://i.goopics.net/rJgKm.jpg"></a>
-
-        <nav class="navigation">
-            <a href="youtube.html">Youtube</a>
-            <a href="twitter.html">Twitter</a>
-            <a href="instagram.html">Instagram</a>
-            <a href="twitch.html">Twitch</a>
-            <a href="contact.html">Contact</a>
+    <header>
+        <img class="banner" alt="logotype Henry Tran" src="https://i.goopics.net/rJgKm.jpg">
+        <nav>
+          <a class="nav-item" href="./index.html">Home</a>
+          <a class="nav-item" href="./youtube.html">Youtube</a>
+          <a class="nav-item" href="./twitter.html">Twitter</a>
+          <a class="nav-item" href="./instagram.html">Instagram</a>
+          <a class="nav-item" href="./twitch.html">Twitch</a>
+          <a class="nav-item" href="./contact.html">Contact</a>
         </nav>
+    </header>
+    <body>
+
+    <form class="formulaire de contact" action="contact.html" method="post">
+        <p>Pour toutes vos questions ou retour sur notre site :</p>
+        <a href="" target="_BLANK"></a>
+        <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+        </div>
+
+        <div>
+        <label for="mail">E-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+        </div>
+
+        <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+        </div>
+
+        <!-- <div class="button">
+        <button type="submit"><img src="img/Smash Invitation.jpg" alt="button envoyer" height="100"></button>
+        </div> -->
+    </form>
 
 
-        <form class="formulaire de contact" action="contact.html" method="post">
-            <p>Pour toutes vos questions ou retour sur notre site :</p>
-              <a href="" target="_BLANK"></a>
-          <div>
-              <label for="name">Nom :</label>
-              <input type="text" id="name" name="user_name">
-          </div>
-      
-          <div>
-                <label for="mail">E-mail :</label>
-                <input type="email" id="mail" name="user_mail">
-          </div>
-      
-          <div>
-                <label for="msg">Message :</label>
-                <textarea id="msg" name="user_message"></textarea>
-          </div>
-      
-          <div class="button">
-            <button type="submit"><img src="img/Smash Invitation.jpg" alt="button envoyer" height="100"></button>
-          </div>
-        </form>
 
-        
-
-        <footer class="social-media">
-            <nav>
-                <a href="https://www.youtube.com/channel/UC3DVTbnJNVFbDq1gVLVFdvw" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a href="https://twitch.tv/superhenrytran" target="_blank"><i class="fab fa-twitch"></i></a>
-                <a href="https://www.instagram.com/henrytran/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/superhenrytran" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.tiktok.com/@imhenrytran?source=h5_m" target="_blank"><i class="fab fa-tiktok"></i></a>
-            </nav>
-        </footer>
+    <footer class="social-media">
+        <a class="footer-links" href="https://www.youtube.com/channel/UC3DVTbnJNVFbDq1gVLVFdvw" target="_blank"><i
+            class="fab fa-youtube"></i></a>
+        <a class="footer-links" href="https://twitch.tv/superhenrytran" target="_blank"><i class="fab fa-twitch"></i></a>
+        <a class="footer-links" href="https://www.instagram.com/henrytran/" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <a class="footer-links" href="https://twitter.com/superhenrytran" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a class="footer-links" href="https://www.tiktok.com/@imhenrytran?source=h5_m" target="_blank"><i
+            class="fab fa-tiktok"></i></a>
+    </footer>
     </body>
+
 </html>
