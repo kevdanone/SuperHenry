@@ -12,7 +12,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous" />
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../style/css/reset.css">
+    <link rel="stylesheet" href="../style/css/styles.css">
   </head>
   <body>
     <div class="app">
@@ -20,7 +21,7 @@
         <img class="banner" alt="logotype Henry Tran" src="https://i.goopics.net/rJgKm.jpg">
         <nav class="nav">
           <ul class="nav__list">
-            <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./index.html">Home</a></li>
+            <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="../index.html">Home</a></li>
             <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./youtube.html">Youtube</a></li>
             <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./twitter.html">Twitter</a></li>
             <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./instagram.html">Instagram</a></li>
@@ -28,44 +29,12 @@
             <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./contact.html">Contact</a></li>
           </ul>
         </nav>
-        <h1 class="title title--main">Contact</h1>
+        <h1 class="title title--main">Twitch</h1>
       </header>
       <main class="main">
-        <p>Pour toutes vos questions ou retour sur notre site :</p>
-        <section class="form-contact">
-          <form class="form-contact__container" action="contact.html" method="post">
-            <div class="form-contact__row">
-              <label class="form-contact__label" for="userName">Name:</label>
-              <div class="form-contact__field">
-                <input type="text" id="userName" name="userName">
-              </div>
-            </div>
-            <div class="form-contact__row">
-              <label class="form-contact__label" for="userMail">E-mail:</label>
-              <div class="form-contact__field">
-                <input type="email" id="userMail" name="userMail">
-              </div>
-            </div>
-            <div class="form-contact__row">
-              <label class="form-contact__label" for="userMsg">Message:</label>
-              <div class="form-contact__field">
-                <textarea
-                  id="userMsg"
-                  rows="20"
-                  cols="20"
-                  onfocus="this.value=''; this.onfocus=null;"
-                  name="userMsg">
-                </textarea>
-              </div>
-            </div>
-            <div class="form-contact__row">
-              <label class="form-contact__label" for="userMsg"><!-- must be empty --></label>
-              <div class="form-contact__field">
-                <input type="submit" value="Submit">
-              </div>
-            </div>
-          </form>
-        </section>
+        <p class="paragraph">
+          ici tu peux mettre des vidéo de replay de la même manière que youtube si c'est ce que tu veux
+        </p>
       </main>
       <footer class="footer social-media">
         <ul class="social-media__list">
@@ -97,5 +66,6 @@
         </ul>
       </footer>
     </div>
+    <script src="../../src/index.js"></script>
   </body>
 </html>
