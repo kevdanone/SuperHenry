@@ -1,3 +1,3 @@
 # SuperHenry
 
-gh page: https://mizux.github.io/SuperHenry/html
+GitHub Page: https://mizux.github.io/SuperHenry/html
