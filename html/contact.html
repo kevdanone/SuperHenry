@@ -1,65 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Super Henry Tran</title>
-      
-        <link rel="stylesheet" href="../css/styles.css">
-      
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-          crossorigin="anonymous" />
-    </head>
-    <header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="description à définir">
+    <meta name="keywords" content="keywords à définir">
+    <title>Super Henry Tran</title>
+    <link
+      prefetch
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
         <img class="banner" alt="logotype Henry Tran" src="https://i.goopics.net/rJgKm.jpg">
-        <nav>
-          <a class="nav-item" href="./index.html">Home</a>
-          <a class="nav-item" href="./youtube.html">Youtube</a>
-          <a class="nav-item" href="./twitter.html">Twitter</a>
-          <a class="nav-item" href="./instagram.html">Instagram</a>
-          <a class="nav-item" href="./twitch.html">Twitch</a>
-          <a class="nav-item" href="./contact.html">Contact</a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./index.html">Home</a></li>
+            <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./youtube.html">Youtube</a></li>
+            <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./twitter.html">Twitter</a></li>
+            <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./instagram.html">Instagram</a></li>
+            <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./twitch.html">Twitch</a></li>
+            <li class="nav__list__item"><a class="nav__list__item__link scale-anime" href="./contact.html">Contact</a></li>
+          </ul>
         </nav>
-    </header>
-    <body>
-
-    <form class="formulaire de contact" action="contact.html" method="post">
+        <h1 class="title title--main">Contact</h1>
+      </header>
+      <main class="main">
         <p>Pour toutes vos questions ou retour sur notre site :</p>
-        <a href="" target="_BLANK"></a>
-        <div>
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="user_name">
-        </div>
-
-        <div>
-        <label for="mail">E-mail :</label>
-        <input type="email" id="mail" name="user_mail">
-        </div>
-
-        <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
-        </div>
-
-        <!-- <div class="button">
-        <button type="submit"><img src="img/Smash Invitation.jpg" alt="button envoyer" height="100"></button>
-        </div> -->
-    </form>
-
-
-
-    <footer class="social-media">
-        <a class="footer-links" href="https://www.youtube.com/channel/UC3DVTbnJNVFbDq1gVLVFdvw" target="_blank"><i
-            class="fab fa-youtube"></i></a>
-        <a class="footer-links" href="https://twitch.tv/superhenrytran" target="_blank"><i class="fab fa-twitch"></i></a>
-        <a class="footer-links" href="https://www.instagram.com/henrytran/" target="_blank"><i
-            class="fab fa-instagram"></i></a>
-        <a class="footer-links" href="https://twitter.com/superhenrytran" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a class="footer-links" href="https://www.tiktok.com/@imhenrytran?source=h5_m" target="_blank"><i
-            class="fab fa-tiktok"></i></a>
-    </footer>
-    </body>
-
+        <section class="form-contact">
+          <form class="form-contact__container" action="contact.html" method="post">
+            <div class="form-contact__row">
+              <label class="form-contact__label" for="userName">Name:</label>
+              <div class="form-contact__field">
+                <input type="text" id="userName" name="userName">
+              </div>
+            </div>
+            <div class="form-contact__row">
+              <label class="form-contact__label" for="userMail">E-mail:</label>
+              <div class="form-contact__field">
+                <input type="email" id="userMail" name="userMail">
+              </div>
+            </div>
+            <div class="form-contact__row">
+              <label class="form-contact__label" for="userMsg">Message:</label>
+              <div class="form-contact__field">
+                <textarea
+                  id="userMsg"
+                  rows="20"
+                  cols="20"
+                  onfocus="this.value=''; this.onfocus=null;"
+                  name="userMsg">
+                </textarea>
+              </div>
+            </div>
+            <div class="form-contact__row">
+              <label class="form-contact__label" for="userMsg"><!-- must be empty --></label>
+              <div class="form-contact__field">
+                <input type="submit" value="Submit">
+              </div>
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer class="footer social-media">
+        <ul class="social-media__list">
+          <li class="social-media__list__item">
+            <a class="social-media__list__item__link scale-anime" href="https://www.youtube.com/channel/UC3DVTbnJNVFbDq1gVLVFdvw" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li class="social-media__list__item">
+            <a class="social-media__list__item__link scale-anime" href="https://twitch.tv/superhenrytran" target="_blank">
+              <i class="fab fa-twitch"></i>
+            </a>
+          </li>
+          <li class="social-media__list__item">
+            <a class="social-media__list__item__link scale-anime" href="https://www.instagram.com/henrytran/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="social-media__list__item">
+            <a class="social-media__list__item__link scale-anime" href="https://twitter.com/superhenrytran" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="social-media__list__item">
+            <a class="social-media__list__item__link scale-anime" href="https://www.tiktok.com/@imhenrytran?source=h5_m" target="_blank">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
