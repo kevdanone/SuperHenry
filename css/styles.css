@@ -61,7 +61,9 @@ form {
   form div + div {
     margin-top: 1em;
   }
-  
+  article{
+      display: flex;
+  }
   label {
     display: inline-block;
     width: 300px;
@@ -92,4 +94,6 @@ form {
   button {
     margin-left: .5em;
   }
-  
+  article iframe{
+    margin: 1em;
+  }
